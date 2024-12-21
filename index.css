@@ -1,0 +1,383 @@
+*{
+    background-color: black;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* position: fixed; */
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+header{
+    height: 3rem;
+    width: 100vw;
+    box-shadow: inset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.spotifyicon{
+    height: 2.7rem;
+    width: 2.7rem;
+    color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-left: 16px;
+}
+.homeicon{
+    height: 3rem;
+    width: 3rem;
+    background-color: #1F1F1F;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    margin-right: -40%;
+    color: white;
+}
+.searchbar{
+    height: 3rem;
+    width: 31vw;
+    background-color: #1F1F1F;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    margin-left: 10%;
+    margin-right: -16%;
+
+}
+.magnifyglass{
+    height: 3rem;
+    width: 9%;
+    background-color: #1F1F1F;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px 0 0 24px;
+    font-size: large;
+    box-shadow: inset;
+    padding-left: 1%;
+}
+.search{
+    height: 3rem;
+    width: 82%;
+    background-color: #1F1F1F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset;
+}
+input{
+    height: 2.6rem;
+    outline: none;
+    box-shadow: inset;
+    width: 88%;
+    background-color: #1F1F1F;
+    border-style: none;
+    font-size: medium;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.browse{
+    height: 3rem;
+    width: 9%;
+    background-color: #1F1F1F;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 24px 24px 0;
+    font-size: x-large;
+    box-shadow: inset;
+   padding-right: 1%;
+}
+.signup{
+    height: 3rem;
+    width: 7vw;
+    color: white;
+    border: 2px solid black;
+    margin-right: 2vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -30%;
+}
+.login{
+    height: 3rem;
+    width: 7vw;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    margin-right: 2vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1%;
+}
+/*---------------------------------------------------------------------------main body---------------------------------------------------------- */
+.mainbody{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/* ---------------------------------------------------------------------leftsection----------------------------------------------------------------- */
+.leftsection{
+    height: 79vh;
+    width: 27.3vw;
+    margin-top: 2vh;
+    background-color: #0f0f0f;
+    border-radius: 10px;
+    margin-bottom: 1vh;
+}
+.library{
+    width: 100%;
+    height: 12%;
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 13px;
+}
+.browse_playlist{
+    color: white;
+    height: 50%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background-color: #0f0f0f;
+    margin-left: 6%;
+    font-size: x-large;
+}
+.your_library{
+    color: white;
+    height: 50%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background-color: #0f0f0f;
+    margin-left: -58%;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.plus_icon{
+    height: 50%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    background-color: #0f0f0f;
+    color: white;
+    font-size: medium;
+    margin-left: 1%;
+}
+.scroll_playlist{
+    height: 50%;
+    width: 100%;
+    background-color: #0f0f0f;
+    margin-top: 4.8%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5%;
+    flex: 1;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+.create_playlist{
+    height: 46%;
+    width: 96%;
+    background-color: #1F1F1F;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 1vh;
+}
+.create_first_playlist{
+    background-color: #1F1F1F;
+    margin-left: 5.3%;
+}
+.its_easy{
+    background-color: #1F1F1F;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 5.8%;
+}
+.inner_create_playlist{
+    height: 25%;
+    width: 30%;
+    background-color: white;
+    color: black;
+    font-size: .86rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 6.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4vh;
+}
+.browse_podcast{
+    height: 46%;
+    width: 96%;
+    background-color: #1F1F1F;
+    margin-top: 5%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 1vh;
+}
+.inner_browse_podcast{
+    height: 25%;
+    width: 35%;
+    background-color: white;
+    color: black;
+    font-size: .86rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 6.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4vh;
+}
+.cookies{
+    height: 20%;
+    width: 100%;
+    color: white;
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    font-size: x-small;
+
+}
+.text_legal{
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1%;
+}
+.inner_cookies_text{
+    height: 30%;
+    margin-left: 7%;
+    background-color: #0f0f0f;
+}
+.about_ads{
+    background-color: #0f0f0f;  
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.inner_cookies{
+    background-color:#0f0f0f;
+    margin-left: 4.7%;
+    font-size: 0.8rem;
+}
+.language{
+   height: 5.5%;
+   width: 19%;
+   border-radius: 5vh;
+   margin-left: 5%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   border: 1px solid rgb(161, 159, 159);
+   font-weight: bold;
+   font-size: .9rem;
+   padding: 0 1% 0 1%;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+.rightsection{
+    height: 79vh;
+    width: 70.2vw;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-right: 1vw;
+    margin-left: .5vw;
+    background-color: #0f0f0f;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 1%;
+    font-weight: bold;
+    flex: 1;
+    overflow-y:auto;
+    overflow-x: hidden;
+
+}
+.topcard{
+    width: 100%;
+    height: 5vh;
+    background-color: #0f0f0f;
+    border-radius: 13px;
+    color: white;
+    font-size: x-large;
+    align-self:flex-end;
+    padding-top: 9vh;
+    padding-left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    height: 16vh;
+    width: 15vw;
+    margin: 10px;
+    border-radius: 7px;
+    display: grid;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding: 2% 0 0 1%;
+}
+.inner_card{
+    height: 14.5vh;
+    width: 14.5vh;
+    border-radius: 7px;
+    transform: rotate(30deg);
+    background-size: cover;
+    margin: -5% 0 0 60%;
+}
+/* -----------------------------------------------------------------------------Footer Part------------------------------------------------------------------------------------------- */
+/* footer{
+    height: 9vh;
+    width: 100vw;
+    box-shadow: inset;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dc148c;
+} */
